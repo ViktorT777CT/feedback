@@ -12,41 +12,55 @@
 
 <form id="form1" method="post" action="1" class="p-5 ajax_form">
     <div class="container_form">
-        <div class="d-flex form-row">
-            <div class="mb-3 p-2">
-                <label for="inputNumber1" class="form-label text-white">№</label>
-                <span class=”error_message”></span>
-                <input value="1" type="text" name="number" class="form-control bg_color" id="inputNumber1" readonly>
+        <div class="row">
+            <div class="col-1">
+                <div class="p-1">
+                    <label for="inputNumber1" class="form-label text-white">№</label>
+                    <span class=”error_message”></span>
+                    <input value="1" type="text" name="number" class="form-control bg_color" id="inputNumber1" readonly>
+                </div>
             </div>
-            <div class="mb-3 p-2">
-                <label for="inputArticle1" class="form-label text-white">Артикул</label>
-                <span class=”error_message”></span>
-                <input type="text" name="article" class="form-control bg_color" id="inputArticle1">
+            <div class="col-3">
+                <div class="p-1">
+                    <label for="inputArticle1" class="form-label text-white">Артикул</label>
+                    <span class=”error_message”></span>
+                    <input type="text" name="article" class="form-control bg_color" id="inputArticle1">
+                </div>
             </div>
-            <div class="mb-3 p-2">
-                <label for="inputName1" class="form-label text-white">Наименование</label>
-                <span class=”error_message”></span>
-                <input type="text" name="name" class="form-control bg_color" id="inputName1">
+
+            <div class="col-2">
+                <div class="p-1">
+                    <label for="inputName1" class="form-label text-white">Наименование</label>
+                    <span class=”error_message”></span>
+                    <input type="text" name="name" class="form-control bg_color" id="inputName1">
+                </div>
             </div>
-            <div class="mb-3 p-2">
-                <label for="inputQuantity1" class="form-label text-white">Количество</label>
-                <span class=”error_message”></span>
-                <input type="text" name="quantity" class="form-control bg_color" id="inputQuantity1">
+
+            <div class="col-1">
+                <div class="p-1">
+                    <label for="inputQuantity1" class="form-label text-white">Количество</label>
+                    <span class=”error_message”></span>
+                    <input type="text" name="quantity" class="form-control bg_color" id="inputQuantity1">
+                </div>
             </div>
-            <div class="mb-3 p-2">
-                <label for="inputComment1" class="form-label text-white">Комментарий</label>
-                <span class=”error_message”></span>
-                <input type="text" name="comment" class="form-control bg_color" id="inputComment1">
+
+            <div class="col">
+                <div class="p-1">
+                    <label for="inputComment1" class="form-label text-white">Комментарий</label>
+                    <span class=”error_message”></span>
+                    <input type="text" name="comment" class="form-control bg_color" id="inputComment1">
+                </div>
             </div>
+
         </div>
     </div>
 
-    <div class="d-flex">
-        <div id="add" class="w-50 bg_nav border-0 rounded rounded-3 m-2 p-2 w-50 button__feedback">
+    <div class="d-flex  mt-2">
+        <div id="add" class="w-50 bg_nav border-0 rounded rounded-3 m-1 p-2 w-50 button__feedback">
             Добавить поле
         </div>
 
-        <button name="form1" form="form1" type="submit" class="w-50 bg_nav border-0 rounded rounded-3 m-2 p-2 w-50 button__feedback">Отправить</button>
+        <button name="form1" form="form1" type="submit" class="w-50 bg_nav border-0 rounded rounded-3 m-1 p-2 w-50 button__feedback">Отправить</button>
     </div>
 
 </form>
