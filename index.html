@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+<form id="form1" method="post" action="1" class="p-5 ajax_form">
+    <div class="container_form">
+        <div class="d-flex form-row">
+            <div class="mb-3 p-2">
+                <label for="inputNumber1" class="form-label text-white">№</label>
+                <span class=”error_message”></span>
+                <input value="1" type="text" name="number" class="form-control bg_color" id="inputNumber1" readonly>
+            </div>
+            <div class="mb-3 p-2">
+                <label for="inputArticle1" class="form-label text-white">Артикул</label>
+                <span class=”error_message”></span>
+                <input type="text" name="article" class="form-control bg_color" id="inputArticle1">
+            </div>
+            <div class="mb-3 p-2">
+                <label for="inputName1" class="form-label text-white">Наименование</label>
+                <span class=”error_message”></span>
+                <input type="text" name="name" class="form-control bg_color" id="inputName1">
+            </div>
+            <div class="mb-3 p-2">
+                <label for="inputQuantity1" class="form-label text-white">Количество</label>
+                <span class=”error_message”></span>
+                <input type="text" name="quantity" class="form-control bg_color" id="inputQuantity1">
+            </div>
+            <div class="mb-3 p-2">
+                <label for="inputComment1" class="form-label text-white">Комментарий</label>
+                <span class=”error_message”></span>
+                <input type="text" name="comment" class="form-control bg_color" id="inputComment1">
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex">
+        <div id="add" class="w-50 bg_nav border-0 rounded rounded-3 m-2 p-2 w-50 button__feedback">
+            Добавить поле
+        </div>
+
+        <button name="form1" form="form1" type="submit" class="w-50 bg_nav border-0 rounded rounded-3 m-2 p-2 w-50 button__feedback">Отправить</button>
+    </div>
+
+</form>
+
+<script src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+
+
+.bubu {
+    counter-increment: bubu;
+}
+
+.bubu::before {
+    content:  counter(bubu)".";
+}
+#add{
+    width: 30px;
+    background-color: #fff;
+    color: #FF6B00 ;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
